@@ -1,0 +1,16 @@
+.box{
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0 !important;
+    border: 1px solid white;
+    font-size: 60px;
+}
+.box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.buttonWrapper{
+    margin-bottom: 20px;
+}
