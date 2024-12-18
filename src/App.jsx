@@ -49,6 +49,10 @@ function App() {
       setInfo(`Giliran ${!isXTurn ? "X" : "O"} `)
       setIsXTurn(!isXTurn)
       cekWinner(updateSquares)
+      if(!updateSquares.some(item => item === null)){
+        setInfo("Draw!!")
+      }
+      
     }
     
   }
